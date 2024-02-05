@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>당신 근처의 당근</title>
+</head>
+<body>
+    <div id="header">
+        <div id="header_wrap">
+                <div id="header_content">
+                    <img src="./logo.svg" width="70" height="auto">
+                </div>
+                <span>&nbsp;&nbsp;</span>
+                <div id="header_content">
+                    <button class="header_menu_selected">중고거래</button>
+                </div>
+                <span>&nbsp;&nbsp;</span>
+                <div id="header_content">
+                    <button class="header_menu">동네업체</button>
+                </div>
+                <span>&nbsp;&nbsp;</span>
+                <div id="header_content">
+                    <button class="header_menu">알바</button>
+                </div>
+                <span>&nbsp;&nbsp;</span>
+                <div id="header_content">
+                    <button class="header_menu">부동산 직거래</button>
+                </div>
+                <span>&nbsp;&nbsp;</span>
+                <div id="header_content">
+                    <button class="header_menu">중고차 직거래</button>
+                </div>
+                <div id="header_content">
+                    <form onsubmit="submitForm(event)">
+                        <input class="search_input" type="text" placeholder="물품이나 동네를 검색해보세요">
+                        <span>&nbsp;&nbsp;</span>
+                        <button type="submit" class="chat_button">채팅하기</button>
+                    </form>
+                </div>    
+        </div>
+    </div>
+
+    <div id="body">
+        <div>
+            <div class="banner">
+                <img src="./banner.png">
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1 class="top_title">중고거래 인기매물</h1>
+            <div class="content_4_wrap">
+                <div class="item_row">
+                    <div class="item">
+                        <img src="https://dnvefa72aowie.cloudfront.net/origin/article/202402/c82ea65b20cccb58957d009faa3eedf7dc5884fd4c060f5583590529adbaa97e_0.webp?q=82&s=300x300&t=crop&f=webp" style="border-radius: 12px; width:200px">
+                        <h2 class="item_name">산청지리산곶감</h2>
+                        <h2 class="item_cost">30,000원</h2>
+                        <h1 class="item_place">경기도 성남시 분당구 정자동</h1>
+                        <div class="like_chating">
+                            <span class="like">관심 81</span>
+                            <span>&nbsp;&nbsp;・&nbsp;&nbsp;</span>
+                            <span class="chat">채팅 81</span>
+                        </div>
+                    </div>
+                     <div class="item">
+                        <img src="https://dnvefa72aowie.cloudfront.net/origin/article/202402/2d045fc993c4027056b6e9c4f888043f7c8dc0aa2477b023db6be4e1b3b56840_0.webp?q=82&s=300x300&t=crop&f=webp" style="border-radius: 12px; width:200px">
+                        <h2 class="item_name">상주곶감선물세트</h2>
+                        <h2 class="item_cost">30,000원</h2>
+                        <h1 class="item_place">경기도 안양시 동안구 관양2동</h1>
+                        <div class="like_chating">
+                            <span class="like">관심 17</span>
+                            <span>&nbsp;&nbsp;・&nbsp;&nbsp;</span>
+                            <span class="chat">채팅 38</span>
+                        </div>
+                    </div>
+                     <div class="item">
+                        <img src="https://dnvefa72aowie.cloudfront.net/origin/article/202401/c920f0a06bb9b77c1adbd63929dee114800a792a70bf5e77a12d1b76589cda01_0.webp?q=82&s=300x300&t=crop&f=webp" style="border-radius: 12px; width:200px">
+                        <h2 class="item_name">남자 화장품 팝니다</h2>
+                        <h2 class="item_cost">5,000원</h2>
+                        <h1 class="item_place">경기도 안양시 동안구 달안동</h1>
+                        <div class="like_chating">
+                            <span class="like">관심 10</span>
+                            <span>&nbsp;&nbsp;・&nbsp;&nbsp;</span>
+                            <span class="chat">채팅 49</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item_row">
+                    <div class="item">
+                        <img src="https://dnvefa72aowie.cloudfront.net/origin/article/202402/2c9e59ed348422c3da727b0a2aa83baad06e83b94cb8fdff33ee0f99ca501743_0.webp?q=82&s=300x300&t=crop&f=webp" style="border-radius: 12px; width:200px">
+                        <h2 class="item_name">사과 배 선물세트입니다</h2>
+                        <h2 class="item_cost">30,000원</h2>
+                        <h1 class="item_place">서울 관악구 삼성동</h1>
+                        <div class="like_chating">
+                            <span class="like">관심 7</span>
+                            <span>&nbsp;&nbsp;・&nbsp;&nbsp;</span>
+                            <span class="chat">채팅 23</span>
+                        </div>
+                    </div>
+                     <div class="item">
+                        <img src="https://dnvefa72aowie.cloudfront.net/origin/article/202402/2c77db6ae555c9d40d39858c4ca7120f32fdbc51a45f00f97dc714c151fab016.jpg?q=82&s=300x300&t=crop&f=webp" style="border-radius: 12px; width:200px">
+                        <h2 class="item_name">셀린느 엘로이즈백</h2>
+                        <h2 class="item_cost">100,000원</h2>
+                        <h1 class="item_place">서울 서초구 반포2동</h1>
+                        <div class="like_chating">
+                            <span class="like">관심 42</span>
+                            <span>&nbsp;&nbsp;・&nbsp;&nbsp;</span>
+                            <span class="chat">채팅 20</span>
+                        </div>
+                    </div>
+                     <div class="item">
+                        <img src="https://dnvefa72aowie.cloudfront.net/origin/article/202402/e3a7f84fc22742011c8658a28432ee6482316b0cf4d5cb48c99bfe2fefc3b7c9_0.webp?q=82&s=300x300&t=crop&f=webp" style="border-radius: 12px; width:200px">
+                        <h2 class="item_name">위닉스 제습기 중고 팝니다.</h2>
+                        <h2 class="item_cost">50,000원</h2>
+                        <h1 class="item_place">전북 전주시 덕진구 송천동1가</h1>
+                        <div class="like_chating">
+                            <span class="like">관심 34</span>
+                            <span>&nbsp;&nbsp;・&nbsp;&nbsp;</span>
+                            <span class="chat">채팅 57</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item_row">
+                    <div class="item">
+                        <img src="https://dnvefa72aowie.cloudfront.net/origin/article/202402/451da8e237ad8042b0e45a7223825f0ea41256fece4efb2b257e26bf82a5c384_0.webp?q=82&s=300x300&t=crop&f=webp" style="border-radius: 12px; width:200px">
+                        <h2 class="item_name">제습기</h2>
+                        <h2 class="item_cost">20,000원</h2>
+                        <h1 class="item_place">서울 관악구 봉천동</h1>
+                        <div class="like_chating">
+                            <span class="like">관심 12</span>
+                            <span>&nbsp;&nbsp;・&nbsp;&nbsp;</span>
+                            <span class="chat">채팅 18</span>
+                        </div>
+                    </div>
+                     <div class="item">
+                        <img src="https://dnvefa72aowie.cloudfront.net/origin/article/202401/297f0ddc3435665c4e5bd313ad0165577249af427340de5e9553202d46a64cc0_0.webp?q=82&s=300x300&t=crop&f=webp" style="border-radius: 12px; width:200px">
+                        <h2 class="item_name">전기자전거</h2>
+                        <h2 class="item_cost">50,000원</h2>
+                        <h1 class="item_place">경기도 성남시 분당구 야탑동</h1>
+                        <div class="like_chating">
+                            <span class="like">관심 42</span>
+                            <span>&nbsp;&nbsp;・&nbsp;&nbsp;</span>
+                            <span class="chat">채팅 71</span>
+                        </div>
+                    </div>
+                     <div class="item">
+                        <img src="https://dnvefa72aowie.cloudfront.net/origin/article/202402/7bef8222885eca3cd3deb93aabfb34a2da9ec8912c24f1033ce8911961364cb5_0.webp?q=82&s=300x300&t=crop&f=webp" style="border-radius: 12px; width:200px">
+                        <h2 class="item_name">다이슨 무선청소기</h2>
+                        <h2 class="item_cost">30,000원</h2>
+                        <h1 class="item_place">울산 북구 화봉동</h1>
+                        <div class="like_chating">
+                            <span class="like">관심 10</span>
+                            <span>&nbsp;&nbsp;・&nbsp;&nbsp;</span>
+                            <span class="chat">채팅 27</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item_row">
+                    <div class="item">
+                        <img src="https://dnvefa72aowie.cloudfront.net/origin/article/202402/929662db8dc89efc301dd29ddc0673d530e39289364bd6be62b9bd86840bc880_0.webp?q=82&s=300x300&t=crop&f=webp" style="border-radius: 12px; width:200px">
+                        <h2 class="item_name">황금 천혜향 입니다</h2>
+                        <h2 class="item_cost">30,000원</h2>
+                        <h1 class="item_place">광주 북구 연제동</h1>
+                        <div class="like_chating">
+                            <span class="like">관심 81</span>
+                            <span>&nbsp;&nbsp;・&nbsp;&nbsp;</span>
+                            <span class="chat">채팅 49</span>
+                        </div>
+                    </div>
+                     <div class="item">
+                        <img src="https://dnvefa72aowie.cloudfront.net/origin/article/202402/99b895cac660d4286fa286dc1c2b4f251c64d7c72c72da98d9fca7e201c0a54b_0.webp?q=82&s=300x300&t=crop&f=webp" style="border-radius: 12px; width:200px">
+                        <h2 class="item_name">쌀 20키로</h2>
+                        <h2 class="item_cost">20,000원</h2>
+                        <h1 class="item_place">서울 강서구 발산제1동</h1>
+                        <div class="like_chating">
+                            <span class="like">관심 8</span>
+                            <span>&nbsp;&nbsp;・&nbsp;&nbsp;</span>
+                            <span class="chat">채팅 4</span>
+                        </div>
+                    </div>
+                     <div class="item">
+                        <img src="https://dnvefa72aowie.cloudfront.net/origin/article/202402/9d6544fac4f7f5be39af6bc38beb44cf7a96db8cebb0422c43cd04898440c00c_0.webp?q=82&s=300x300&t=crop&f=webp" style="border-radius: 12px; width:200px">
+                        <h2 class="item_name">신새계 상풍권 10 만원짜리 6만원에 팝니다</h2>
+                        <h2 class="item_cost">60,000원</h2>
+                        <h1 class="item_place">세종시 도담동</h1>
+                        <div class="like_chating">
+                            <span class="like">관심 6</span>
+                            <span>&nbsp;&nbsp;・&nbsp;&nbsp;</span>
+                            <span class="chat">채팅 47</span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="more_item_wrap">
+                    <button class="more_item_btn">인기매물 더보기</button>
+                </div>
+                <div class="content_5">
+                    <div class="keyword_wrap">
+                        <button class="keyword_title">중고거래 인기검색어</button>
+                        <div class="keyword_wrap_row">
+                            <button class="keyword">알바</button>
+                            <button class="keyword">순금</button>
+                            <button class="keyword">금</button>
+                            <button class="keyword">나눔</button>
+                            <button class="keyword">아이폰</button>
+                            <button class="keyword">24K</button>
+                            <button class="keyword">덩어리</button>
+                            <button class="keyword">자전거</button>
+                            <button class="keyword">노트북</button>
+                            <button class="keyword">의자</button>
+                        </div>
+                    </div>
+                    <hr style="color:#495057">
+                
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+
+<script>
+		function submitForm(event) {
+			event.preventDefault();
+ 
+			
+			const search_input = document.getElementsByClassName("search_input")[0].value;
+			
+			alert(`검색어: ${search_input}`);
+		}
+	</script>
+</body>
+</html>
