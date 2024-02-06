@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw; 
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar:horizontal {
+    display: none;
+}
+
+/*메뉴*/
+
+
+/*배너*/
+.banner {
+    background-color: #FFF1AA;
+    height: 315px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.banner_txt {
+    padding-left: 400px;
+    padding-top: 70px;
+}
+
+.banner_txt_one {
+    font-size: 2rem;
+	font-weight: 600;
+}
+
+.banner_txt_two {
+    font-size: 1rem;
+	font-weight: 500;
+}
+
+.banner_img {
+    height: 315px;
+}
+
+/*중고거래 인기매물*/
+.product {
+    width: 100vw;
+    height: 1300px;
+}
+
+.product_tit {
+    font-size: 2rem;
+	font-weight: 600;
+	margin-top: 60px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.product_table {
+    position: relative;
+    width: 799px;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 3.1rem;
+}
+
+.sell_img {
+    width: 200px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+
+.sell_name {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.sell_price {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.sell_reg {
+    font-size: 13px;
+    margin-bottom: 3px;
+}
+
+.sell_react {
+    color: #868e96;
+    font-size: 13px;
+}
+
+/*인기매물 더보기 버튼*/
+.more_item_wrap {
+	display: flex;
+	justify-content: center;
+}
+ 
+.more_item_btn {
+	border: none;
+	background-color: white;
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: medium;
+	margin-bottom: 80px;
+}
+
+/*중고거래 인기검색어*/
+.keyword_wrap{
+	display: flex;
+	justify-content: center;
+    height: 104px;
+    background-color: #F8F9FA;
+    border-bottom: solid 1px #E2E2E2;
+}
+ 
+.keyword_title{
+	border: none;
+	background-color: #F8F9FA;
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: medium;
+	margin-left: 45px;
+}
+
+.keyword{
+	border: none;
+	background-color: #F8F9FA;
+	font-size: medium;
+	margin-left: 45px;
+}
+
+/*하단부*/
+/*기타 회사정보*/
+.info {
+    display: flex;
+    justify-content: center;
+    padding: 70px 0;
+}
+
+.info1 {
+    display: flex;
+}
+
+.info1 ul {
+    list-style-type: none;
+    padding: 20px;
+    line-height: 3.5em;
+    font-size: 14px;
+}
+
+/*당근마켓 앱 다운로드*/
+.app_tit {
+    font-weight: 600;
+    font-size: 14px;
+    padding-left: 40px;
+    margin-bottom: 10px;
+}
+
+.app_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'SUITE-Regular';
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 40px;
+}
+
+[class^='app_download'] {
+    display: flex;
+    align-items: center;
+    background-color: rgb(235, 237, 239);
+    padding: 10px;
+    border-radius: 10px;
+    width: 147px;
+    height: 44px;
+}
+
+.app_img img {
+    width: 16px;
+    height: 19px;
+    margin-left: 10px;
+    margin-right: 8px;
+}
+
+.app_download_1 {
+    width: 147px;
+    padding-left: 15px;
+    margin-right: 20px;
+}
+
+/*footer*/
+.footer_box {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    width: 50%;
+    border-top: 1px solid#eaebee;
+    padding: 40px 0;
+}
+
+.txt_em {
+    color: #868b94;
+    font-family: 'SUITE-Regular';
+    font-size: 13.008px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.info2 {
+    color: #868b94;
+    font-size: 13.008px;
+    word-spacing: 5px;
+    padding-left: 20px;
+}
+
+.txt_em_1 {
+    color: #868b94;
+    font-size: 13.008px;
+    font-weight: 700;
+    word-spacing: 5px;
+    padding-left: 20px;
+    margin: 15px 0;
+}
+
+.txt_em_1 a{
+    text-decoration: none;
+    color: #6d7076;
+}
+
+.sns_lan {
+    margin-right: 20px;
+    float: right;
+}
+
+.fa-brands {
+    height: 15px;
+    filter: grayscale(100%);
+}
