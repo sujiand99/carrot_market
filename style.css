@@ -67,6 +67,11 @@ body{
     grid-row-gap: 3.1rem;
 }
 
+.detail {
+    text-decoration-line: none;
+    color: inherit;
+}
+
 .sell_img {
     width: 200px;
     border-radius: 20px;
@@ -189,6 +194,11 @@ body{
     margin-right: 8px;
 }
 
+.app_img a {
+    text-decoration-line: none;
+    color: inherit;
+}
+
 .app_download_1 {
     width: 147px;
     padding-left: 15px;
@@ -209,7 +219,6 @@ body{
 
 .txt_em {
     color: #868b94;
-    font-family: 'SUITE-Regular';
     font-size: 13.008px;
     font-weight: 600;
     letter-spacing: 3px;
@@ -225,7 +234,7 @@ body{
 .txt_em_1 {
     color: #868b94;
     font-size: 13.008px;
-    font-weight: 700;
+    font-weight: 600;
     word-spacing: 5px;
     padding-left: 20px;
     margin: 15px 0;
@@ -234,6 +243,7 @@ body{
 .txt_em_1 a{
     text-decoration: none;
     color: #6d7076;
+    color: inherit;
 }
 
 .sns_lan {
@@ -241,7 +251,12 @@ body{
     float: right;
 }
 
-.fa-brands {
-    height: 15px;
+.brands {
+    height: 24px;
     filter: grayscale(100%);
+}
+
+.country {
+    outline: none;
+    border: none;
 }
